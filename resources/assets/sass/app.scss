@@ -1,0 +1,33 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.navbar-default {
+    background-color: #502222;
+    border-color: #d3e0e9;
+}
+
+body{
+    background: url('/imgs/background.jpg')
+}
+
+.scroll::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+.scroll::-webkit-scrollbar{
+    width: 12px;
+    background-color: #f5f5f5;
+}
+.scroll::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #d62929;
+}
